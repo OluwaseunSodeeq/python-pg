@@ -98,3 +98,29 @@ round(floattype, 2) #round to 2 decimal places
  
 #the best decimal formater logic
 format_function =  "{:.2f}".format(floattype)
+
+
+# EXAMPLES ON VARIABLES, SCOPES, AND NAMING CONVENTIONS
+
+# VARIABLES AND NAMING CONVENTIONS
+user_name = "Oluwaseun"
+
+# GLOBAL VARIABLE
+total_price = 100
+
+# LOCAL VARIABLE
+def local_scope_example():
+    local_var = "I am a local variable"
+    print(f"{local_var} will cause a NameError if accessed outside this function. \n {user_name}")
+    print(f" and {total_price} can be accessed anywhere in the code.")
+
+# ENCLOSING VARIABLE
+def enclosing_scope_example():
+    enclosing_var = "I am an enclosing variable"
+    def nested_code():
+        print(f"{enclosing_var} can be accessed within this enclosing function and its nested function.") 
+
+# BUILT-IN VARIABLE: Using a built-in function
+number_list = [1, 2, 3, 4, 5]
+total = sum(number_list)  
+print(total)
