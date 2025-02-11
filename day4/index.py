@@ -58,7 +58,7 @@ print(list_result)
 list_of_Game = ["ROCK","PAPER","SCISSORS"]
 game_on = True
 
-if game_on:
+while game_on:
 
     entered_input = int( input("what do u choose? 0 for Rock, 1 for Scissors, 2 for Paper,  "))
     computer_choice = list_of_Game[ random.randint(0, len(list_of_Game) -1)]

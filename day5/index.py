@@ -19,7 +19,6 @@ print(total_even)
 
 
 
-
 fizz_buzz_num = 0 
 for num_buzz in range(1, 101):
     fizz_buzz_num += num_buzz

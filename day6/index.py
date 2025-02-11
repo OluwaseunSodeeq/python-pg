@@ -1,7 +1,10 @@
-# FUNCTION AND WHILE LOOP
 import random
+# FUNCTION AND WHILE LOOP
+
 gen_result = ""
 init_result = ""
+
+# FUNCTION
 def operation_func(result,range_of_char,each_list):
     for ind in range(1, range_of_char + 1):
         print(f"range_of_char: {range_of_char}")
@@ -47,8 +50,12 @@ while number_of_hurdle > 0:
 
     # ================2
 # if u avnt reached where u were heading  keep going
-at_goal = ""
-wall_in_front = False
+def at_goal ():
+    print("flag")
+
+def wall_in_front():
+   return False
+
 while not at_goal():
 # if u av reached the wall Jump if not move
     if wall_in_front():
@@ -58,15 +65,21 @@ while not at_goal():
 
 
 # =================3
-wall_in_right =""
-front_in_clear=""
+def wall_in_right():
+    return True
+
+def front_in_clear():
+    return False
 def jump_any_hurdle():
     turn_left
+
     while wall_in_right():
         move()
+
     turn_right()
     move()
     turn_right()
+    
     while front_in_clear():
         move()
     turn_left()
