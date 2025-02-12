@@ -1,4 +1,7 @@
-# DICTIONARY AND NESTING LIST ANDDICTIONARIES
+# DICTIONARY AND NESTING LIST AND DICTIONARIES
+# Creating  an empty dictionary
+programming_object = {}
+
 programming_dictionary = {
     "name":"Oluwaseun",
     "age":26,
@@ -10,12 +13,19 @@ programming_dictionary[21]
 programming_dictionary["name"]
 
 
-# Addijng new Item
+# Adding new Item
 programming_dictionary["Loop"] = "for performing a repeitive task"
-
 programming_list = ["asdfg","werty",12,21]
-print(programming_dictionary)
+programming_object["vars"] = "values"
 
+# Editing a dictionary
+programming_dictionary["name"] =  "Ademola"
+
+print(programming_dictionary)
+print(programming_object)
+
+
+# Accessing the key and value of a dictionary
 for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
