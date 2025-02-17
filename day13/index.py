@@ -13,32 +13,32 @@ my_function()
 
 # Reproduce the error
 from random import randint
-dice_ings = ["1","2","3","4","5","6"]
+dice_ing = ["1","2","3","4","5","6"]
 dice_num2 = randint(0,5 )
 dice_num = randint(1, 6)
-print(dice_ings[dice_num])
-print(dice_ings[dice_num2])
+print(dice_ing[dice_num])
+print(dice_ing[dice_num2])
 
 
 # play Computer
 year = int(input("what is your year of birth ?"))
 
-# this wont run if the input is 1994
-
+# this next line wont run if the input is 1994
 # if year > 1980 and year < 1994:
-if year > 1980 and year <= 1994:
-  print("You are a millenial.")
-elif year > 1994:
-  print("You are a Gen Z")
-elif year > 2024:
-  print("You are Gen Alpha")
-else:
-  print("You are an accestor!")
 
+if year > 1980 and year <= 1994:
+  print(f"You are a millennium.")
+elif year > 1994:
+  print(f"You are a Gen Z")
+elif year > 2024:
+  print(f"You are Gen Alpha")
+else:
+  print(f"You are an accentor!")
 
 # fix d error in the console and in the text editor before continue
 # note that the value is still string and this could cause an error
 # age = input("How old are you?")
+
 age = int(input("How old are you?"))
 if  age > 18 :
     print(f"You can drive at this age of yours. you are now {age}")
@@ -67,8 +67,7 @@ mutate_result = mutate([1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
 print(mutate_result)
 
 
-
-# Even and Odd Exerceise
+# Even and Odd Exercise
 input_number = int(input("Which number do you want to check?"))
 # if input_number % 2 = 0: the bug is in this line (assignment operator)
 if input_number % 2 == 0:

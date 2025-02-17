@@ -42,8 +42,9 @@ while not game_over:
         if lives == 0:
             print("Game over")
             game_over = True
-# angela's solution = """
 
+
+# angela's solution = """
 
 def format_data(account):
     account_name = account['name']
@@ -65,16 +66,11 @@ account_b = choice(celebrities)
 
 
 while game_should_continue:
-
     account_a = account_b
     account_b = choice(celebrities)
 
     if account_a == account_b:
         account_b = choice(celebrities)
-
-
-
-
     print(f"Compare A: {format_data(account_a)} VS B: {format_data(account_b)}")
 
     guess = input("who has more followers 'A' or 'B' ").upper()
