@@ -29,9 +29,7 @@ const age = 27;
 function calculator() {
     let num1 = parseFloat(prompt("What is your first number?"));
     console.log("Available operations:", Object.keys(operations).join(" "));
-
     let shouldContinue = true;
-
     while (shouldContinue) {
         let operatorSymbol = prompt("Pick an operation from the line above: ");
         let num2 = parseFloat(prompt("What is your next number?"));
