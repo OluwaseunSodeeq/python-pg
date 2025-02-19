@@ -36,9 +36,10 @@ resources = {
 }
 def is_resource_sufficient(order_ingredient):
     for item in order_ingredient:
-        order_ingredient >= resources[item]
-        print(f"Sorry there is not enough {item}.")
-        return False
+        print(order_ingredient)
+        if order_ingredient[item] >= resources[item]:
+            print(f"Sorry there is no enough {item}.")
+            return False
     return True
 
 def process_coins():
@@ -61,9 +62,10 @@ def is_transaction_successful(money_received, drink_cost):
     else:
         print("Sorry that's not enough money. Money is refunded.")
         return False
-def make_coffee (drink_name,order_ingredient):
-    for each in order_ingredient:
-       resources[each]
+def make_coffee (drink_name,order_ingredients):
+    for each in order_ingredients:
+       resources[each] -= order_ingredients[each]
+    print(f"here is your {drink_name}")
 
 
 while is_on:
@@ -84,8 +86,8 @@ while is_on:
 
         if is_resource_sufficient(drink["ingredients"]):
             payment = process_coins()
-            is_transaction_successful(payment, drink["cost"])
-            make_coffee()
+            if is_transaction_successful(payment, drink["cost"]):
+                make_coffee(choice,drink["ingredients"])
 
 
     #             print(f"Here is your {choice}. Enjoy!")
