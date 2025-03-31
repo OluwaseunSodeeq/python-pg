@@ -1,0 +1,49 @@
+[33m632dd33[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m habit tracker updated!
+[33m630cafd[m Added .env to .gitignore
+[33mbde5cc8[m Removed sensitive data from history
+[33mbd27c10[m reader tracker
+[33m9fe7c42[m[33m ([m[1;31morigin/main[m[33m)[m Added .env to .gitignore to prevent accidental commits
+[33m648919a[m Added .env to .gitignore to prevent accidental commits
+[33ma1ec256[m Refactored day35 and day36 scripts for improved functionality
+[33ma233a92[m Refactored day35 and day36 scripts for improved functionality
+[33ma1b1f7c[m Removed Twilio credentials
+[33m4446f06[m stock news app with twilio and newsapi
+[33m01f882e[m api authentication and environment variables
+[33md14757e[m api authentication and environment variables
+[33m00ddac8[m quizler updated with tkinter and canvas for GUI
+[33mc7cd0b1[m api in action
+[33mf8b6a8a[m Birthday wisher App
+[33md8071f5[m flash card app
+[33m6775e46[m flash_cards_project_start
+[33m7df0754[m intro to json
+[33mdda47b5[m password generator
+[33mf11cd61[m pomodoro with tkinter
+[33m85f1f4a[m introduction to GUI with tkinter
+[33m22c04ac[m List, Conditional and Dictionary comprehension
+[33mb3007ba[m CSV and Pandas Library in action
+[33mee52e18[m mail-merging achieved
+[33m0bbba66[m turtle-crossing project done
+[33m8870b2c[m Pong game complete
+[33mb058a72[m snake game complete
+[33m3751c01[m still on OOP
+[33m82c97a3[m instances and states
+[33m46af6f0[m colorgram package usage
+[33m8f798dc[m turtle packages usage
+[33ma11781d[m class in OPP
+[33m6b391e1[m introduction to OOP
+[33mc4dae7b[m Coffee Machine
+[33m89e838e[m updated!
+[33m0499601[m debugging and higher and lower project
+[33m636aaa3[m scope and global constant
+[33m321c485[m blackjack algorithm achieved
+[33m01dadb9[m python fundamental achieved
+[33m6ed4957[m dictionaries and its feactures
+[33m670c84a[m function and loops
+[33md0f7a1c[m variables and scope updated
+[33m90e8ed7[m randomisation
+[33m50b3a29[m control flow
+[33mba8df91[m primitive data types
+[33mc911f5c[m comment, print and input function
+[33m7dc2e25[m Function,While loop, hangman
+[33mf331cc2[m control flow, random function and for in loop
+[33m6f6857d[m first commit
